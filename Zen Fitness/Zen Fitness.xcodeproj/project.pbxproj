@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2411102BF0A221003EE4C6 /* FitnessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24110F2BF0A221003EE4C6 /* FitnessAppApp.swift */; };
+		CE2411122BF0A221003EE4C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2411112BF0A221003EE4C6 /* HomeView.swift */; };
+		CE2411142BF0A223003EE4C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2411132BF0A223003EE4C6 /* Assets.xcassets */; };
+		CE2411172BF0A223003EE4C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2411162BF0A223003EE4C6 /* Preview Assets.xcassets */; };
+		CE24111E2BF0A44F003EE4C6 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24111D2BF0A44F003EE4C6 /* WorkoutsView.swift */; };
+		CE2411202BF0A73A003EE4C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24111F2BF0A73A003EE4C6 /* ContentView.swift */; };
+		CE2411222BF0A9EA003EE4C6 /* ActivityHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2411212BF0A9EA003EE4C6 /* ActivityHomeView.swift */; };
+		CEC07A022BF0DE3900264BBA /* BalancingWithKyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A012BF0DE3900264BBA /* BalancingWithKyleView.swift */; };
+		CEC07A042BF0DE5600264BBA /* YogaWithNoahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A032BF0DE5600264BBA /* YogaWithNoahView.swift */; };
+		CEC07A062BF0DE8900264BBA /* PushUpsWithTraciView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A052BF0DE8900264BBA /* PushUpsWithTraciView.swift */; };
+		CEC07A082BF0DECA00264BBA /* StomachsWithJudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A072BF0DECA00264BBA /* StomachsWithJudyView.swift */; };
+		CEC07A0A2BF0EE0900264BBA /* ActivitySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A092BF0EE0900264BBA /* ActivitySummaryView.swift */; };
+		CEC07A0C2BF0EE2C00264BBA /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A0B2BF0EE2C00264BBA /* AddActivityView.swift */; };
+		CEC07A0E2BF0EE4B00264BBA /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A0D2BF0EE4B00264BBA /* AchievementsView.swift */; };
+		CEC07A102BF1223100264BBA /* AchievementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A0F2BF1223100264BBA /* AchievementModel.swift */; };
+		CEC07A122BF13DD200264BBA /* Video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEC07A112BF13DD200264BBA /* Video1.mp4 */; };
+		CEC07A142BF13E2E00264BBA /* Video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEC07A132BF13E2E00264BBA /* Video2.mp4 */; };
+		CEC07A162BF13E3D00264BBA /* Video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEC07A152BF13E3D00264BBA /* Video3.mp4 */; };
+		CEC07A182BF144BC00264BBA /* Video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEC07A172BF144BB00264BBA /* Video4.mp4 */; };
+		CEC07A1B2BF14A4B00264BBA /* DailyChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A1A2BF14A4B00264BBA /* DailyChallengeView.swift */; };
+		CEC07A1D2BF14A7500264BBA /* StreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A1C2BF14A7400264BBA /* StreakView.swift */; };
+		CEC07A1F2BF14A9300264BBA /* WaterIntakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A1E2BF14A9300264BBA /* WaterIntakeView.swift */; };
+		CEC07A212BF14AB200264BBA /* InspirationalQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A202BF14AB200264BBA /* InspirationalQuoteView.swift */; };
+		CEC07A232BF14AD400264BBA /* WorkoutSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A222BF14AD400264BBA /* WorkoutSummaryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE24110C2BF0A221003EE4C6 /* Zen Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zen Fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE24110F2BF0A221003EE4C6 /* FitnessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppApp.swift; sourceTree = "<group>"; };
+		CE2411112BF0A221003EE4C6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE2411132BF0A223003EE4C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2411162BF0A223003EE4C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE24111D2BF0A44F003EE4C6 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
+		CE24111F2BF0A73A003EE4C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE2411212BF0A9EA003EE4C6 /* ActivityHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHomeView.swift; sourceTree = "<group>"; };
+		CEC07A012BF0DE3900264BBA /* BalancingWithKyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancingWithKyleView.swift; sourceTree = "<group>"; };
+		CEC07A032BF0DE5600264BBA /* YogaWithNoahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaWithNoahView.swift; sourceTree = "<group>"; };
+		CEC07A052BF0DE8900264BBA /* PushUpsWithTraciView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUpsWithTraciView.swift; sourceTree = "<group>"; };
+		CEC07A072BF0DECA00264BBA /* StomachsWithJudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StomachsWithJudyView.swift; sourceTree = "<group>"; };
+		CEC07A092BF0EE0900264BBA /* ActivitySummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySummaryView.swift; sourceTree = "<group>"; };
+		CEC07A0B2BF0EE2C00264BBA /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
+		CEC07A0D2BF0EE4B00264BBA /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		CEC07A0F2BF1223100264BBA /* AchievementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementModel.swift; sourceTree = "<group>"; };
+		CEC07A112BF13DD200264BBA /* Video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video1.mp4; sourceTree = "<group>"; };
+		CEC07A132BF13E2E00264BBA /* Video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video2.mp4; sourceTree = "<group>"; };
+		CEC07A152BF13E3D00264BBA /* Video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video3.mp4; sourceTree = "<group>"; };
+		CEC07A172BF144BB00264BBA /* Video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video4.mp4; sourceTree = "<group>"; };
+		CEC07A1A2BF14A4B00264BBA /* DailyChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallengeView.swift; sourceTree = "<group>"; };
+		CEC07A1C2BF14A7400264BBA /* StreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakView.swift; sourceTree = "<group>"; };
+		CEC07A1E2BF14A9300264BBA /* WaterIntakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntakeView.swift; sourceTree = "<group>"; };
+		CEC07A202BF14AB200264BBA /* InspirationalQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationalQuoteView.swift; sourceTree = "<group>"; };
+		CEC07A222BF14AD400264BBA /* WorkoutSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummaryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2411092BF0A221003EE4C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2411032BF0A221003EE4C6 = {
+			isa = PBXGroup;
+			children = (
+				CE24110E2BF0A221003EE4C6 /* Zen Fitness */,
+				CE24110D2BF0A221003EE4C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE24110D2BF0A221003EE4C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE24110C2BF0A221003EE4C6 /* Zen Fitness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE24110E2BF0A221003EE4C6 /* Zen Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				CE24110F2BF0A221003EE4C6 /* FitnessAppApp.swift */,
+				CE24111D2BF0A44F003EE4C6 /* WorkoutsView.swift */,
+				CEC07A012BF0DE3900264BBA /* BalancingWithKyleView.swift */,
+				CEC07A072BF0DECA00264BBA /* StomachsWithJudyView.swift */,
+				CEC07A032BF0DE5600264BBA /* YogaWithNoahView.swift */,
+				CEC07A052BF0DE8900264BBA /* PushUpsWithTraciView.swift */,
+				CE24111F2BF0A73A003EE4C6 /* ContentView.swift */,
+				CEC07A0F2BF1223100264BBA /* AchievementModel.swift */,
+				CE2411212BF0A9EA003EE4C6 /* ActivityHomeView.swift */,
+				CEC07A092BF0EE0900264BBA /* ActivitySummaryView.swift */,
+				CEC07A0B2BF0EE2C00264BBA /* AddActivityView.swift */,
+				CEC07A0D2BF0EE4B00264BBA /* AchievementsView.swift */,
+				CE2411112BF0A221003EE4C6 /* HomeView.swift */,
+				CEC07A222BF14AD400264BBA /* WorkoutSummaryView.swift */,
+				CEC07A202BF14AB200264BBA /* InspirationalQuoteView.swift */,
+				CEC07A1E2BF14A9300264BBA /* WaterIntakeView.swift */,
+				CEC07A1C2BF14A7400264BBA /* StreakView.swift */,
+				CEC07A1A2BF14A4B00264BBA /* DailyChallengeView.swift */,
+				CE2411132BF0A223003EE4C6 /* Assets.xcassets */,
+				CEC07A192BF1481700264BBA /* Audio */,
+				CE2411152BF0A223003EE4C6 /* Preview Content */,
+			);
+			path = "Zen Fitness";
+			sourceTree = "<group>";
+		};
+		CE2411152BF0A223003EE4C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE2411162BF0A223003EE4C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEC07A192BF1481700264BBA /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CEC07A112BF13DD200264BBA /* Video1.mp4 */,
+				CEC07A132BF13E2E00264BBA /* Video2.mp4 */,
+				CEC07A152BF13E3D00264BBA /* Video3.mp4 */,
+				CEC07A172BF144BB00264BBA /* Video4.mp4 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE24110B2BF0A221003EE4C6 /* Zen Fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE24111A2BF0A223003EE4C6 /* Build configuration list for PBXNativeTarget "Zen Fitness" */;
+			buildPhases = (
+				CE2411082BF0A221003EE4C6 /* Sources */,
+				CE2411092BF0A221003EE4C6 /* Frameworks */,
+				CE24110A2BF0A221003EE4C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zen Fitness";
+			productName = FitnessApp;
+			productReference = CE24110C2BF0A221003EE4C6 /* Zen Fitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2411042BF0A221003EE4C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CE24110B2BF0A221003EE4C6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CE2411072BF0A221003EE4C6 /* Build configuration list for PBXProject "Zen Fitness" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2411032BF0A221003EE4C6;
+			productRefGroup = CE24110D2BF0A221003EE4C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE24110B2BF0A221003EE4C6 /* Zen Fitness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE24110A2BF0A221003EE4C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2411172BF0A223003EE4C6 /* Preview Assets.xcassets in Resources */,
+				CEC07A122BF13DD200264BBA /* Video1.mp4 in Resources */,
+				CEC07A162BF13E3D00264BBA /* Video3.mp4 in Resources */,
+				CEC07A142BF13E2E00264BBA /* Video2.mp4 in Resources */,
+				CEC07A182BF144BC00264BBA /* Video4.mp4 in Resources */,
+				CE2411142BF0A223003EE4C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2411082BF0A221003EE4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC07A1D2BF14A7500264BBA /* StreakView.swift in Sources */,
+				CE2411122BF0A221003EE4C6 /* HomeView.swift in Sources */,
+				CE2411102BF0A221003EE4C6 /* FitnessAppApp.swift in Sources */,
+				CEC07A1B2BF14A4B00264BBA /* DailyChallengeView.swift in Sources */,
+				CEC07A0A2BF0EE0900264BBA /* ActivitySummaryView.swift in Sources */,
+				CE2411202BF0A73A003EE4C6 /* ContentView.swift in Sources */,
+				CEC07A0E2BF0EE4B00264BBA /* AchievementsView.swift in Sources */,
+				CEC07A062BF0DE8900264BBA /* PushUpsWithTraciView.swift in Sources */,
+				CEC07A212BF14AB200264BBA /* InspirationalQuoteView.swift in Sources */,
+				CEC07A082BF0DECA00264BBA /* StomachsWithJudyView.swift in Sources */,
+				CEC07A042BF0DE5600264BBA /* YogaWithNoahView.swift in Sources */,
+				CEC07A232BF14AD400264BBA /* WorkoutSummaryView.swift in Sources */,
+				CEC07A1F2BF14A9300264BBA /* WaterIntakeView.swift in Sources */,
+				CEC07A102BF1223100264BBA /* AchievementModel.swift in Sources */,
+				CEC07A022BF0DE3900264BBA /* BalancingWithKyleView.swift in Sources */,
+				CE2411222BF0A9EA003EE4C6 /* ActivityHomeView.swift in Sources */,
+				CE24111E2BF0A44F003EE4C6 /* WorkoutsView.swift in Sources */,
+				CEC07A0C2BF0EE2C00264BBA /* AddActivityView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE2411182BF0A223003EE4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE2411192BF0A223003EE4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE24111B2BF0A223003EE4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zen Fitness/Preview Content\"";
+				DEVELOPMENT_TEAM = 623WD4NYWA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.dealwis.FitnessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE24111C2BF0A223003EE4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zen Fitness/Preview Content\"";
+				DEVELOPMENT_TEAM = 623WD4NYWA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.dealwis.FitnessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2411072BF0A221003EE4C6 /* Build configuration list for PBXProject "Zen Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2411182BF0A223003EE4C6 /* Debug */,
+				CE2411192BF0A223003EE4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE24111A2BF0A223003EE4C6 /* Build configuration list for PBXNativeTarget "Zen Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE24111B2BF0A223003EE4C6 /* Debug */,
+				CE24111C2BF0A223003EE4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2411042BF0A221003EE4C6 /* Project object */;
+}
