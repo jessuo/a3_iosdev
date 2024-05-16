@@ -22,15 +22,15 @@
 		CEC07A0C2BF0EE2C00264BBA /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A0B2BF0EE2C00264BBA /* AddActivityView.swift */; };
 		CEC07A0E2BF0EE4B00264BBA /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A0D2BF0EE4B00264BBA /* AchievementsView.swift */; };
 		CEC07A102BF1223100264BBA /* AchievementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A0F2BF1223100264BBA /* AchievementModel.swift */; };
-		CEC07A122BF13DD200264BBA /* Video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEC07A112BF13DD200264BBA /* Video1.mp4 */; };
-		CEC07A142BF13E2E00264BBA /* Video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEC07A132BF13E2E00264BBA /* Video2.mp4 */; };
-		CEC07A162BF13E3D00264BBA /* Video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEC07A152BF13E3D00264BBA /* Video3.mp4 */; };
-		CEC07A182BF144BC00264BBA /* Video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEC07A172BF144BB00264BBA /* Video4.mp4 */; };
 		CEC07A1B2BF14A4B00264BBA /* DailyChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A1A2BF14A4B00264BBA /* DailyChallengeView.swift */; };
 		CEC07A1D2BF14A7500264BBA /* StreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A1C2BF14A7400264BBA /* StreakView.swift */; };
 		CEC07A1F2BF14A9300264BBA /* WaterIntakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A1E2BF14A9300264BBA /* WaterIntakeView.swift */; };
 		CEC07A212BF14AB200264BBA /* InspirationalQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A202BF14AB200264BBA /* InspirationalQuoteView.swift */; };
 		CEC07A232BF14AD400264BBA /* WorkoutSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC07A222BF14AD400264BBA /* WorkoutSummaryView.swift */; };
+		E4E8D5C12BF5C6600041942F /* Video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4E8D5BC2BF5C6600041942F /* Video1.mp4 */; };
+		E4E8D5C22BF5C6600041942F /* Video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4E8D5BD2BF5C6600041942F /* Video2.mp4 */; };
+		E4E8D5C32BF5C6600041942F /* Video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4E8D5BE2BF5C6600041942F /* Video3.mp4 */; };
+		E4E8D5C42BF5C6600041942F /* Video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4E8D5BF2BF5C6600041942F /* Video4.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,15 +50,15 @@
 		CEC07A0B2BF0EE2C00264BBA /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
 		CEC07A0D2BF0EE4B00264BBA /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
 		CEC07A0F2BF1223100264BBA /* AchievementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementModel.swift; sourceTree = "<group>"; };
-		CEC07A112BF13DD200264BBA /* Video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video1.mp4; sourceTree = "<group>"; };
-		CEC07A132BF13E2E00264BBA /* Video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video2.mp4; sourceTree = "<group>"; };
-		CEC07A152BF13E3D00264BBA /* Video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video3.mp4; sourceTree = "<group>"; };
-		CEC07A172BF144BB00264BBA /* Video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video4.mp4; sourceTree = "<group>"; };
 		CEC07A1A2BF14A4B00264BBA /* DailyChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallengeView.swift; sourceTree = "<group>"; };
 		CEC07A1C2BF14A7400264BBA /* StreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakView.swift; sourceTree = "<group>"; };
 		CEC07A1E2BF14A9300264BBA /* WaterIntakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntakeView.swift; sourceTree = "<group>"; };
 		CEC07A202BF14AB200264BBA /* InspirationalQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationalQuoteView.swift; sourceTree = "<group>"; };
 		CEC07A222BF14AD400264BBA /* WorkoutSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummaryView.swift; sourceTree = "<group>"; };
+		E4E8D5BC2BF5C6600041942F /* Video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video1.mp4; sourceTree = "<group>"; };
+		E4E8D5BD2BF5C6600041942F /* Video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video2.mp4; sourceTree = "<group>"; };
+		E4E8D5BE2BF5C6600041942F /* Video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video3.mp4; sourceTree = "<group>"; };
+		E4E8D5BF2BF5C6600041942F /* Video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video4.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 				CEC07A1C2BF14A7400264BBA /* StreakView.swift */,
 				CEC07A1A2BF14A4B00264BBA /* DailyChallengeView.swift */,
 				CE2411132BF0A223003EE4C6 /* Assets.xcassets */,
-				CEC07A192BF1481700264BBA /* Audio */,
+				E4E8D5C02BF5C6600041942F /* Audio */,
 				CE2411152BF0A223003EE4C6 /* Preview Content */,
 			);
 			path = "Zen Fitness";
@@ -124,15 +124,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CEC07A192BF1481700264BBA /* Audio */ = {
+		E4E8D5C02BF5C6600041942F /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				CEC07A112BF13DD200264BBA /* Video1.mp4 */,
-				CEC07A132BF13E2E00264BBA /* Video2.mp4 */,
-				CEC07A152BF13E3D00264BBA /* Video3.mp4 */,
-				CEC07A172BF144BB00264BBA /* Video4.mp4 */,
+				E4E8D5BC2BF5C6600041942F /* Video1.mp4 */,
+				E4E8D5BD2BF5C6600041942F /* Video2.mp4 */,
+				E4E8D5BE2BF5C6600041942F /* Video3.mp4 */,
+				E4E8D5BF2BF5C6600041942F /* Video4.mp4 */,
 			);
-			path = Audio;
+			name = Audio;
+			path = ../../../../Downloads/Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,11 +195,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2411172BF0A223003EE4C6 /* Preview Assets.xcassets in Resources */,
-				CEC07A122BF13DD200264BBA /* Video1.mp4 in Resources */,
-				CEC07A162BF13E3D00264BBA /* Video3.mp4 in Resources */,
-				CEC07A142BF13E2E00264BBA /* Video2.mp4 in Resources */,
-				CEC07A182BF144BC00264BBA /* Video4.mp4 in Resources */,
+				E4E8D5C42BF5C6600041942F /* Video4.mp4 in Resources */,
+				E4E8D5C22BF5C6600041942F /* Video2.mp4 in Resources */,
+				E4E8D5C12BF5C6600041942F /* Video1.mp4 in Resources */,
 				CE2411142BF0A223003EE4C6 /* Assets.xcassets in Resources */,
+				E4E8D5C32BF5C6600041942F /* Video3.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
